@@ -1,13 +1,16 @@
 /* @import url('halloween.css'); */
-body {color:red;}
-h2 {color:green;}
+body {color:red; font-size: 100%;}
+h2 {color:green; font-style: italic; font-size: 1.5em;}
 header h2 {color:black;}
 #thirdLetterToGreen {color:black;}
-p {color:blue;}
-.two {color:black;}
+p {color:blue; font-size: 18px;}
+p.two {color:black; font: bold 15px Arial, sans-serif;}
 nav a:link {color:white; background-color: red;}
 nav a:hover {color:red; background-color: white;}
 nav a:visited {color:white; background-color: red;}
 header {text-align: center;}
 nav ul li {list-style:none;}
 nav a{text-decoration:none;}
+h1{font-family: Courier; font-size: 2em;}
+footer{font-weight: bold;}
+li{font-variant: small-caps;}
