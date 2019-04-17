@@ -1,5 +1,5 @@
 /* @import url('halloween.css'); */
-body {color:red; font-size: 100%;}
+body {color:red; font-size: 100%;background-color:#b4e27e}
 h2 {color:green; font-style: italic; font-size: 1.5em;}
 header h2 {color:black;}
 #thirdLetterToGreen {color:black;}
@@ -8,9 +8,27 @@ p.two {color:black; font: bold 15px Arial, sans-serif;}
 nav a:link {color:white; background-color: red;}
 nav a:hover {color:red; background-color: white;}
 nav a:visited {color:white; background-color: red;}
-header {text-align: center;}
+header 
+{
+        text-align: center;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+39,ff6600+68,c72200+95 */
+        background: #f3c5bd; /* Old browsers */
+        background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 39%, #ff6600 68%, #c72200 95%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 39%,#ff6600 68%,#c72200 95%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 39%,#ff6600 68%,#c72200 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+}
 nav ul li {list-style:none;}
 nav a{text-decoration:none;}
 h1{font-family: Courier; font-size: 2em;}
 footer{font-weight: bold;}
 li{font-variant: small-caps;}
+article h2
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+51,afc7e8+62,bad0ef+75,99b5db+88,799bc8+100;Grey+Blue+Gloss+%231 */
+    background: #d2dfed; /* Old browsers */
+    background: -moz-linear-gradient(top, #d2dfed 0%, #c8d7eb 26%, #bed0ea 51%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d2dfed 0%,#c8d7eb 26%,#bed0ea 51%,#a6c0e3 51%,#afc7e8 62%,#bad0ef 75%,#99b5db 88%,#799bc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+}
