@@ -7,3 +7,4 @@ p {color:blue;}
 .two {color:black;}
 nav a:link {color:white; background-color: red;}
 nav a:hover {color:red; background-color: white;}
+nav a:visited {color:white; background-color: red;}
