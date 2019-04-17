@@ -1,9 +1,9 @@
-@media screen {
-    @import url('halloween.css');
-    body {color:red;}
-    h2 {color:green;}
-    header h2 {color:black;}
-    #thirdLetterToGreen {color:black;}
-    p {color:blue;}
-    .two {color:black;}
-}
+/* @import url('halloween.css'); */
+body {color:red;}
+h2 {color:green;}
+header h2 {color:black;}
+#thirdLetterToGreen {color:black;}
+p {color:blue;}
+.two {color:black;}
+nav a:link {color:white; background-color: red;}
+nav a:hover {color:red; background-color: white;}
