@@ -1,7 +1,11 @@
-function convertFahrenheitToCelsius(tempInFahrenheit) {
-    return ((tempInFahrenheit + 40) / 1.8) - 40;
+let hobbiesArray = ['travel' , 'read', 'volunteer'];
+
+function printHobbiesSolution(passedArray) {
+    console.log(`I like ${passedArray.length} things`);
+    for (let index = 0; index < passedArray.length; index++) {
+        let element = passedArray[index];
+        console.log('I like ' + element);
+    }
 }
 
-const tempInCelsius = convertFahrenheitToCelsius(212);
-
-console.log(tempInCelsius);
+printHobbiesSolution(hobbiesArray);
