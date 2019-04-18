@@ -1,18 +1,7 @@
-let x,y,z;
-let timeInMs = Date.now();
+function convertFahrenheitToCelsius(tempInFahrenheit) {
+    return ((tempInFahrenheit + 40) / 1.8) - 40;
+}
 
-let month = new Date();
-console.log(month.getMonth());
+const tempInCelsius = convertFahrenheitToCelsius(212);
 
-x=10;
-y='10';
-z=30;
-
-var newX = x++;
-console.log(x, newX);
-console.log(x==y);
-
-console.log(`x is ${typeof x}`);
-console.log(`y is ${typeof y}`);
-console.log(`z is ${typeof z}`);
-
+console.log(tempInCelsius);
